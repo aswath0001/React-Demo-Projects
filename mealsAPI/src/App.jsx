@@ -1,8 +1,11 @@
 import React from 'react'
+import Meals from './Components/Meals'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Meals/>
+    </div>
   )
 }
 
