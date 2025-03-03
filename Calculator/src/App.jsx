@@ -1,8 +1,11 @@
 import React from 'react'
+import Calculator from './Components/Calculator'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Calculator/>
+    </div>
   )
 }
 
