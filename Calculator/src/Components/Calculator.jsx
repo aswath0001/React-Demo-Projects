@@ -26,7 +26,7 @@ const Calculator = () => {
     <span onClick={() => display('0')}>0</span>
     <span onClick={() => display('00')}>00</span>
     <span onClick={() => display('.')}>.</span>
-    <span className='num equal' onClick={() => calculate()}>=</span>
+    <span className='equal' onClick={() => calculate()}>=</span>
   </form>
 }
 
