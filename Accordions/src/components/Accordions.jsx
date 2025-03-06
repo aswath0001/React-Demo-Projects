@@ -17,6 +17,7 @@ const Accordions = ({title ,content}) => {
         {isActive && <p className="card-info">{content}</p>}
       </div>
     </section>
+   
   )
 }
 
