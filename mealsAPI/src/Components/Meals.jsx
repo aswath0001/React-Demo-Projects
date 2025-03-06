@@ -22,7 +22,7 @@ const Meals = () => {
             <img src= {strMealThumb} alt={strMeal}/>
             <section className='content'>
                 <p>{strMeal}</p>
-                <p>#{idMeal}</p>
+                <p>{idMeal}</p>
             </section>
         </section>
     )
